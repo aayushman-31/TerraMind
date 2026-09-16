@@ -1,0 +1,198 @@
+nodes:
+  - id: soil.organic_carbon_pct
+    domain: soil
+    metric: organic_carbon
+  - id: soil.ph
+    domain: soil
+    metric: ph
+  - id: soil.moisture
+    domain: soil
+    metric: soil_moisture
+  - id: soil_biological_activity
+    domain: soil
+    metric: soil_biodiversity
+  - id: soil_ecosystem_function
+    domain: soil
+    metric: soil_function
+  - id: climate.rainfall
+    domain: climate
+    metric: rainfall
+  - id: water_availability
+    domain: climate
+    metric: water
+  - id: drought_stress
+    domain: climate
+    metric: drought
+  - id: plant_survival
+    domain: biodiversity
+    metric: vegetation
+  - id: vegetation_health
+    domain: biodiversity
+    metric: vegetation
+  - id: habitat_availability
+    domain: biodiversity
+    metric: habitat_diversity
+  - id: habitat_persistence
+    domain: biodiversity
+    metric: habitat_diversity
+  - id: land.cropping_system
+    domain: land
+    metric: cropping_system
+  - id: structural_diversity
+    domain: land
+    metric: habitat_diversity
+  - id: habitat_heterogeneity
+    domain: biodiversity
+    metric: habitat_diversity
+  - id: ecological_niches
+    domain: biodiversity
+    metric: habitat_diversity
+  - id: biodiversity.species_richness
+    domain: biodiversity
+    metric: species_richness
+  - id: biodiversity.habitat_diversity
+    domain: biodiversity
+    metric: habitat_diversity
+  - id: biodiversity.pollinator_presence
+    domain: biodiversity
+    metric: pollinators
+  - id: land.fragmentation
+    domain: land
+    metric: fragmentation
+  - id: human_impact.deforestation
+    domain: human_impact
+    metric: deforestation
+  - id: human_impact.pollution
+    domain: human_impact
+    metric: pollution
+  - id: human_impact.pesticide_use
+    domain: human_impact
+    metric: pesticides
+  - id: human_impact.land_disturbance
+    domain: human_impact
+    metric: disturbance
+  - id: land.crop
+    domain: land
+    metric: crop
+
+edges:
+  - source: soil.organic_carbon_pct
+    relationship: supports
+    target: soil_biological_activity
+    direction: positive
+    evidence_required: true
+  - source: soil_biological_activity
+    relationship: enables
+    target: soil_ecosystem_function
+    direction: positive
+    evidence_required: true
+  - source: soil_ecosystem_function
+    relationship: supports
+    target: vegetation_health
+    direction: positive
+    evidence_required: true
+  - source: vegetation_health
+    relationship: increases
+    target: habitat_availability
+    direction: positive
+    evidence_required: true
+  - source: habitat_availability
+    relationship: supports
+    target: biodiversity.species_richness
+    direction: positive
+    evidence_required: true
+  - source: climate.rainfall
+    relationship: determines
+    target: water_availability
+    direction: positive
+    evidence_required: true
+  - source: water_availability
+    relationship: limits
+    target: plant_survival
+    direction: positive
+    evidence_required: true
+  - source: plant_survival
+    relationship: enables
+    target: habitat_persistence
+    direction: positive
+    evidence_required: true
+  - source: habitat_persistence
+    relationship: supports
+    target: biodiversity.species_richness
+    direction: positive
+    evidence_required: true
+  - source: climate.rainfall
+    relationship: modulates
+    target: drought_stress
+    direction: negative
+    evidence_required: true
+  - source: drought_stress
+    relationship: reduces
+    target: plant_survival
+    direction: negative
+    evidence_required: true
+  - source: land.cropping_system
+    relationship: determines
+    target: structural_diversity
+    direction: contextual
+    evidence_required: true
+  - source: structural_diversity
+    relationship: drives
+    target: habitat_heterogeneity
+    direction: positive
+    evidence_required: true
+  - source: habitat_heterogeneity
+    relationship: increases
+    target: ecological_niches
+    direction: positive
+    evidence_required: true
+  - source: ecological_niches
+    relationship: supports
+    target: biodiversity.species_richness
+    direction: positive
+    evidence_required: true
+  - source: habitat_heterogeneity
+    relationship: supports
+    target: biodiversity.habitat_diversity
+    direction: positive
+    evidence_required: true
+  - source: habitat_heterogeneity
+    relationship: supports
+    target: biodiversity.pollinator_presence
+    direction: positive
+    evidence_required: true
+  - source: land.fragmentation
+    relationship: reduces
+    target: habitat_availability
+    direction: negative
+    evidence_required: true
+  - source: human_impact.deforestation
+    relationship: increases
+    target: land.fragmentation
+    direction: positive
+    evidence_required: true
+  - source: human_impact.pollution
+    relationship: reduces
+    target: biodiversity.species_richness
+    direction: negative
+    evidence_required: true
+  - source: human_impact.pesticide_use
+    relationship: reduces
+    target: biodiversity.pollinator_presence
+    direction: negative
+    evidence_required: true
+  - source: human_impact.land_disturbance
+    relationship: reduces
+    target: soil_biological_activity
+    direction: negative
+    evidence_required: true
+  - source: soil.moisture
+    relationship: supports
+    target: plant_survival
+    direction: positive
+    evidence_required: true
+  - source: soil.ph
+    relationship: constrains
+    target: soil_biological_activity
+    direction: contextual
+    evidence_required: true

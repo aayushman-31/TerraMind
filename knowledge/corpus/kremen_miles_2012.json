@@ -1,0 +1,22 @@
+{
+  "document_id": "kremen_miles_2012",
+  "title": "Ecosystem services in biologically diversified versus conventional farming systems: benefits, externalities, and trade-offs",
+  "authors": ["Claire Kremen", "Albie Miles"],
+  "year": 2012,
+  "source_type": "research_paper",
+  "publisher": "Ecology and Society",
+  "url": "https://www.ecologyandsociety.org/vol17/iss4/art40/",
+  "domain": ["biodiversity", "land", "soil"],
+  "metrics": ["habitat_diversity", "species_richness", "organic_carbon"],
+  "region": ["global"],
+  "methodology": "Comparative review of diversified versus conventional farming systems.",
+  "limitations": "Review of heterogeneous case studies; not a single experimental design.",
+  "chunks": [
+    {
+      "chunk_id": "kremen_2012_c1",
+      "text": "Biologically diversified farming systems tend to support more biodiversity and associated ecosystem services than simplified conventional systems, including soil organic matter related functions and habitat for beneficial organisms. Trade-offs include management complexity and possible short-term yield or water costs. The review argues for evaluating multiple services together rather than optimizing one variable such as yield or irrigation.",
+      "metrics": ["habitat_diversity", "organic_carbon", "species_richness"],
+      "domain": ["biodiversity", "soil", "land"]
+    }
+  ]
+}

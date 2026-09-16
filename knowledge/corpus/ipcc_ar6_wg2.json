@@ -1,0 +1,28 @@
+{
+  "document_id": "ipcc_ar6_wg2_ecosystems",
+  "title": "IPCC AR6 Working Group II: Climate Change 2022 — Impacts, Adaptation and Vulnerability (ecosystems and water)",
+  "authors": ["IPCC"],
+  "year": 2022,
+  "source_type": "institutional_report",
+  "publisher": "IPCC",
+  "url": "https://www.ipcc.ch/report/ar6/wg2/",
+  "domain": ["climate", "biodiversity", "water"],
+  "metrics": ["rainfall", "drought", "species_richness"],
+  "region": ["global", "semi-arid"],
+  "methodology": "Assessed literature on climate impacts to ecosystems, water, and adaptation options.",
+  "limitations": "Climate-impact statements are regional to global; local rainfall statistics must be measured on site.",
+  "chunks": [
+    {
+      "chunk_id": "ipcc_ar6_c1",
+      "text": "Reduced water availability and drought increase mortality risk for plants and the habitats they form. In already dry regions, further rainfall limitation constrains vegetation diversity and can shrink habitat persistence. Adaptation options that improve soil water retention and maintain vegetation cover are more robust than assuming irrigation is universally available or sustainable.",
+      "metrics": ["rainfall", "water", "habitat_diversity"],
+      "domain": ["climate", "biodiversity"]
+    },
+    {
+      "chunk_id": "ipcc_ar6_c2",
+      "text": "Climate change interacts with land-use simplification. Monocultures and fragmented habitats have fewer buffering options when drought occurs. Diversified vegetation structure, including trees and mixed cropping where water budgets allow, can moderate microclimates and support species that would otherwise be lost from simplified fields.",
+      "metrics": ["drought", "cropping_system", "habitat_diversity"],
+      "domain": ["climate", "land"]
+    }
+  ]
+}

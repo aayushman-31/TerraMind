@@ -1,0 +1,22 @@
+{
+  "document_id": "lichtenberg_2017_diversified_farming",
+  "title": "A global synthesis of the effects of diversified farming systems on arthropod diversity and implications for pest control",
+  "authors": ["Erik M. Lichtenberg", "and co-authors"],
+  "year": 2017,
+  "source_type": "research_paper",
+  "publisher": "Proceedings of the Royal Society B",
+  "url": "https://royalsocietypublishing.org/doi/10.1098/rspb.2017.1699",
+  "domain": ["biodiversity", "land"],
+  "metrics": ["species_richness", "habitat_diversity", "pollinators"],
+  "region": ["global"],
+  "methodology": "Global synthesis of diversified farming effects on arthropod diversity.",
+  "limitations": "Arthropod-focused; vertebrate responses may differ. Landscape context modifies on-farm diversification benefits.",
+  "chunks": [
+    {
+      "chunk_id": "lichtenberg_2017_c1",
+      "text": "Diversified farming systems generally support higher arthropod diversity than simplified monocultures. Habitat complexity at field and farm scales provides more ecological niches. The synthesis supports using non-crop vegetation and crop mixtures to improve biodiversity, while noting that pest-control outcomes depend on which taxa increase.",
+      "metrics": ["species_richness", "habitat_diversity"],
+      "domain": ["biodiversity", "land"]
+    }
+  ]
+}

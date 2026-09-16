@@ -1,0 +1,9 @@
+retrieval:
+  semantic_weight: 0.40
+  lexical_weight: 0.25
+  domain_weight: 0.15
+  geographic_weight: 0.10
+  metric_weight: 0.10
+  top_k: 8
+  rerank_k: 5
+  min_evidence_score: 0.12

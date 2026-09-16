@@ -1,0 +1,17 @@
+from __future__ import annotations
+
+from enum import Enum
+
+
+class AgentPhase(str, Enum):
+    UNDERSTAND = "UNDERSTAND"
+    EXTRACT = "EXTRACT"
+    VALIDATE = "VALIDATE"
+    CHECK_COMPLETENESS = "CHECK_COMPLETENESS"
+    CLARIFY = "CLARIFY"
+    RETRIEVE = "RETRIEVE"
+    REASON = "REASON"
+    GENERATE_OPTIONS = "GENERATE_OPTIONS"
+    VERIFY = "VERIFY"
+    RESPOND = "RESPOND"
+    UPDATE_MEMORY = "UPDATE_MEMORY"

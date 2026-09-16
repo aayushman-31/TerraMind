@@ -1,0 +1,20 @@
+cd D:\programs\python\Internship
+.\.venv\Scripts\Activate.ps1
+python -m uvicorn app.main:app --reload --port 8000
+
+
+frontend:
+http://127.0.0.1:8000
+
+if .venv doesn't exist run:
+
+cd D:\programs\python\Internship
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+pip install -r requirements-dev.txt
+python -m uvicorn app.main:app --reload --port 8000
+
+API and health check endpoints:
+http://127.0.0.1:8000/docs
+http://127.0.0.1:8000/api/v1/health

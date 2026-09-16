@@ -1,0 +1,30 @@
+{
+  "document_id": "covercrop_conflict_bundle",
+  "title": "Contrasting evidence on cover-crop biodiversity and water outcomes in drylands",
+  "authors": ["Multiple studies compiled as a conflict case"],
+  "year": 2018,
+  "source_type": "research_paper",
+  "publisher": "compiled evidence bundle",
+  "url": "https://www.fao.org/conservation-agriculture/en/",
+  "domain": ["soil", "climate", "biodiversity"],
+  "metrics": ["organic_carbon", "soil_moisture", "habitat_diversity"],
+  "region": ["semi-arid"],
+  "methodology": "Intentionally paired findings used to test conflict handling: some dryland studies report soil-cover benefits, others report soil-water depletion and weak biodiversity response when cover crops transpire limited moisture.",
+  "limitations": "This bundle is designed to surface disagreement; it is not a single experiment.",
+  "chunks": [
+    {
+      "chunk_id": "conflict_a",
+      "text": "Study A reports that winter cover in semi-arid rotations can increase ground cover, reduce erosion, and contribute modest organic inputs, with associated increases in soil-surface habitat for invertebrates when biomass is achieved.",
+      "metrics": ["organic_carbon", "habitat_diversity"],
+      "domain": ["soil", "biodiversity"],
+      "stance": "positive"
+    },
+    {
+      "chunk_id": "conflict_b",
+      "text": "Study B reports that in low-rainfall systems, cover crops can reduce subsequent soil water and sometimes fail to produce enough biomass for biodiversity or carbon benefits. In those cases, a reliable percentage improvement in species richness should not be claimed.",
+      "metrics": ["soil_moisture", "rainfall"],
+      "domain": ["climate", "soil"],
+      "stance": "cautionary"
+    }
+  ]
+}

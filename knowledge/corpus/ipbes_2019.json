@@ -1,0 +1,28 @@
+{
+  "document_id": "ipbes_2019_global",
+  "title": "Global Assessment Report on Biodiversity and Ecosystem Services",
+  "authors": ["IPBES"],
+  "year": 2019,
+  "source_type": "institutional_report",
+  "publisher": "IPBES",
+  "url": "https://www.ipbes.net/global-assessment",
+  "domain": ["biodiversity", "land", "human_impact"],
+  "metrics": ["species_richness", "habitat_diversity", "fragmentation", "deforestation"],
+  "region": ["global"],
+  "methodology": "Expert assessment of published evidence on drivers of biodiversity change.",
+  "limitations": "Global-scale synthesis cannot specify farm-level percentage responses.",
+  "chunks": [
+    {
+      "chunk_id": "ipbes_2019_c1",
+      "text": "Land-use change, including conversion and intensification, is a dominant direct driver of terrestrial biodiversity decline. Habitat fragmentation reduces the area, quality, and connectivity of habitats that species need to persist. Restoring habitat heterogeneity in production landscapes, including field margins, mixed vegetation, and tree features, is identified as a way to reduce biodiversity pressure without requiring wholesale land abandonment.",
+      "metrics": ["habitat_diversity", "fragmentation", "species_richness"],
+      "domain": ["biodiversity", "land"]
+    },
+    {
+      "chunk_id": "ipbes_2019_c2",
+      "text": "Pollution and over-exploitation interact with climate change and invasive species. Isolated single-driver solutions are less effective than actions that address multiple pressures. For agricultural lands, combining reduced chemical pressure with habitat restoration is more aligned with the multi-driver evidence than irrigation or fertilizer increases alone.",
+      "metrics": ["pollution", "species_richness"],
+      "domain": ["human_impact", "biodiversity"]
+    }
+  ]
+}

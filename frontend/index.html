@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Darukaa Biodiversity Intelligence Agent</title>
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">D</div>
+      <div><p class="eyebrow">DARUKAA / FIELD INTELLIGENCE</p><h1>Biodiversity workspace</h1></div>
+    </div>
+    <div class="header-actions"><span id="session-status" class="session-status"><span class="status-dot"></span>Ready</span><button id="new-session" class="button button-quiet" type="button">New session</button></div>
+  </header>
+  <main class="workspace">
+    <section id="chat-panel" class="chat-panel">
+      <div class="panel-heading"><div><p class="eyebrow">ACTIVE INVESTIGATION</p><h2>Environmental assessment</h2></div><span id="turn-count" class="turn-count">0 turns</span></div>
+      <div id="pipeline" class="pipeline" aria-live="polite"></div>
+      <div id="welcome" class="welcome">
+        <div class="welcome-orbit"><span></span><span></span><span></span></div>
+        <p class="eyebrow">START WITH WHAT YOU KNOW</p>
+        <h2>Let&apos;s read the landscape together.</h2>
+        <p>Describe the change you are seeing, then add whatever you know about soil, water, crops, habitat, or pressure from people. I&apos;ll ask only for the details that change the diagnosis.</p>
+        <div class="prompt-grid">
+          <button class="prompt-chip" type="button" data-prompt="Biodiversity is declining on my farm. I grow wheat and rainfall has been low."><strong>Farm decline</strong><span>soil, crop, rainfall</span></button>
+          <button class="prompt-chip" type="button" data-prompt="Pollinators have disappeared from our orchard and pesticide use has increased."><strong>Pollinator loss</strong><span>impact and habitat</span></button>
+          <button class="prompt-chip" type="button" data-prompt="A fragmented woodland is losing native species after nearby land clearing."><strong>Habitat pressure</strong><span>fragmentation and land use</span></button>
+        </div>
+      </div>
+      <div id="messages" class="messages" aria-live="polite"></div>
+      <form id="composer">
+        <div class="composer-box"><textarea id="input" rows="2" placeholder="Describe what is changing in your land or ecosystem..."></textarea><div class="composer-footer"><span>Evidence-grounded analysis <span class="composer-separator">/</span> JSON accepted</span><button id="send-button" class="button button-primary" type="submit"><span>Analyze</span><span class="send-icon">&#8594;</span></button></div></div>
+      </form>
+    </section>
+    <aside class="inspector">
+      <section class="inspector-card profile-card"><div class="card-heading"><h2>Environmental profile</h2><span id="profile-count">0 known</span></div><div id="state" class="state-grid"><p class="empty-state">Your observed conditions will settle here as we talk.</p></div></section>
+      <section class="inspector-card evidence-card"><div class="card-heading"><h2>Evidence ledger</h2><span id="evidence-count">0 sources</span></div><div id="evidence" class="evidence-list"><p class="empty-state">Retrieved sources will appear after the assessment has enough context.</p></div></section>
+      <section id="reasoning-card" class="inspector-card reasoning-card hidden"><div class="card-heading"><h2>Reasoning map</h2><span>trace</span></div><div id="reasoning"></div></section>
+      <section id="recommendations-card" class="inspector-card recommendations-card hidden"><div class="card-heading"><h2>Recommended actions</h2><span>prioritized</span></div><div id="recommendations"></div></section>
+    </aside>
+  </main>
+  <script src="/assets/app.js"></script>
+</body>
+</html>

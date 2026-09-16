@@ -1,0 +1,22 @@
+{
+  "document_id": "ipbes_pollution_drivers",
+  "title": "IPBES Global Assessment — pollution as a direct driver of biodiversity loss",
+  "authors": ["IPBES"],
+  "year": 2019,
+  "source_type": "institutional_report",
+  "publisher": "IPBES",
+  "url": "https://www.ipbes.net/global-assessment",
+  "domain": ["human_impact", "biodiversity"],
+  "metrics": ["pollution", "species_richness", "pesticides"],
+  "region": ["global"],
+  "methodology": "Assessment chapter synthesis of pollution and chemical drivers.",
+  "limitations": "Does not quantify recovery time for a specific contaminated field.",
+  "chunks": [
+    {
+      "chunk_id": "ipbes_pollution_c1",
+      "text": "Pollution, including pesticides and nutrient runoff, is a direct driver of biodiversity decline. Chemical pressure reduces sensitive taxa, including pollinators and aquatic species, and interacts with habitat simplification. Reducing emissions and pesticide load while retaining habitat is a combined intervention; pollution control alone does not rebuild habitat structure lost to conversion.",
+      "metrics": ["pollution", "species_richness", "pesticides"],
+      "domain": ["human_impact", "biodiversity"]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "lal_2004_soil_carbon",
+  "title": "Soil carbon sequestration to mitigate climate change",
+  "authors": ["Rattan Lal"],
+  "year": 2004,
+  "source_type": "research_paper",
+  "publisher": "Geoderma",
+  "url": "https://www.sciencedirect.com/science/article/abs/pii/S0016706104000266",
+  "domain": ["soil", "climate"],
+  "metrics": ["organic_carbon"],
+  "region": ["global", "semi-arid"],
+  "methodology": "Review of soil carbon sequestration processes and management.",
+  "limitations": "Sequestration rates cited in literature are ranges under specific practices and climates; they are not site guarantees.",
+  "chunks": [
+    {
+      "chunk_id": "lal_2004_c1",
+      "text": "Depleted agricultural soils can regain organic carbon when carbon inputs exceed decomposition and erosion losses. Residue management, reduced disturbance, and perennial or tree components increase the likelihood of carbon recovery. Lal stresses that rates depend on climate and soil, so a reviewer should not invent a farm-specific percentage from a global review alone.",
+      "metrics": ["organic_carbon"],
+      "domain": ["soil"]
+    }
+  ]
+}

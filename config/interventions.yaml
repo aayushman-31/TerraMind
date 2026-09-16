@@ -1,0 +1,194 @@
+interventions:
+  - id: drought_compatible_intercropping
+    action: Introduce drought-compatible intercropping or companion cropping
+    addresses:
+      - land.cropping_system
+      - habitat_heterogeneity
+      - soil.organic_carbon_pct
+      - biodiversity.species_richness
+      - biodiversity.habitat_diversity
+    metrics_impacted:
+      - soil.organic_carbon_pct
+      - soil.moisture
+      - biodiversity.habitat_diversity
+      - biodiversity.species_richness
+    expected_direction:
+      soil.organic_carbon_pct: increase
+      soil.moisture: increase_or_maintain
+      biodiversity.habitat_diversity: increase
+      biodiversity.species_richness: potential_increase
+    time_horizon:
+      short: 1 growing season — canopy cover and habitat structure
+      medium: 1–3 years — soil organic inputs and invertebrate habitat
+      long: 3+ years — species richness response is slower and context-dependent
+    search_terms:
+      - intercropping biodiversity
+      - crop diversification species richness
+      - wheat intercropping semi-arid
+      - habitat heterogeneity agriculture
+    applicable_when:
+      cropping_systems: [monoculture, continuous_monoculture]
+      rainfall: [low, very_low, drought]
+    tradeoffs:
+      - Companion crops may compete for scarce water if poorly matched to rainfall.
+      - Harvest logistics and markets can be more complex than a single crop.
+  - id: cover_crops
+    action: Establish seasonal or opportunistic cover crops compatible with the rainfall regime
+    addresses:
+      - soil.organic_carbon_pct
+      - soil.moisture
+      - human_impact.land_disturbance
+      - vegetation_health
+    metrics_impacted:
+      - soil.organic_carbon_pct
+      - soil.moisture
+      - biodiversity.habitat_diversity
+    expected_direction:
+      soil.organic_carbon_pct: increase
+      soil.moisture: increase_or_maintain
+      biodiversity.habitat_diversity: increase
+    time_horizon:
+      short: 1 season — ground cover and residue
+      medium: 1–3 years — soil organic matter trend
+      long: 3+ years — soil biological community recovery
+    search_terms:
+      - cover crops soil organic carbon
+      - cover crops biodiversity
+      - cover crops drought semi-arid
+    applicable_when:
+      soc: low
+    tradeoffs:
+      - Cover crops can deplete soil water in drylands if termination is mistimed.
+  - id: agroforestry
+    action: Integrate agroforestry or tree-based habitat features at field margins and in-field strips
+    addresses:
+      - habitat_availability
+      - land.fragmentation
+      - climate.rainfall
+      - biodiversity.species_richness
+      - soil.organic_carbon_pct
+    metrics_impacted:
+      - biodiversity.habitat_diversity
+      - biodiversity.species_richness
+      - soil.organic_carbon_pct
+      - soil.moisture
+    expected_direction:
+      biodiversity.habitat_diversity: increase
+      biodiversity.species_richness: potential_increase
+      soil.organic_carbon_pct: increase
+    time_horizon:
+      short: 1 year — establishment and microhabitat
+      medium: 3–7 years — canopy and soil organic carbon
+      long: 7+ years — structural habitat and species response
+    search_terms:
+      - agroforestry biodiversity
+      - agroforestry soil carbon
+      - trees on farms habitat
+    applicable_when:
+      land_cover: [farm, cropland, pasture]
+    tradeoffs:
+      - Trees compete with annual crops for water and light if spacing is dense.
+      - Benefits accrue over years, not a single season.
+  - id: habitat_strips
+    action: Establish non-crop habitat strips, field margins, or native vegetation borders
+    addresses:
+      - habitat_heterogeneity
+      - biodiversity.pollinator_presence
+      - land.fragmentation
+    metrics_impacted:
+      - biodiversity.habitat_diversity
+      - biodiversity.pollinator_presence
+      - biodiversity.species_richness
+    expected_direction:
+      biodiversity.habitat_diversity: increase
+      biodiversity.pollinator_presence: increase
+      biodiversity.species_richness: potential_increase
+    time_horizon:
+      short: 1 season — floral and structural resources
+      medium: 1–3 years — invertebrate and bird use
+      long: 3+ years — more stable habitat networks
+    search_terms:
+      - field margins biodiversity
+      - habitat strips pollinators
+      - ecological infrastructure agriculture
+    applicable_when: {}
+    tradeoffs:
+      - Takes a fraction of cropped area out of production.
+  - id: reduced_disturbance
+    action: Reduce unnecessary soil disturbance and high-intensity tillage where agronomically feasible
+    addresses:
+      - human_impact.land_disturbance
+      - soil_biological_activity
+      - soil.organic_carbon_pct
+    metrics_impacted:
+      - soil.organic_carbon_pct
+      - soil.moisture
+    expected_direction:
+      soil.organic_carbon_pct: increase
+      soil.moisture: increase_or_maintain
+    time_horizon:
+      short: 1 season — residue retention and reduced erosion
+      medium: 2–5 years — soil structure and biological activity
+      long: 5+ years — soil organic carbon stocks
+    search_terms:
+      - reduced tillage soil biodiversity
+      - conservation agriculture soil organic carbon
+    applicable_when:
+      disturbance: [high, unknown]
+    tradeoffs:
+      - Weed and residue management may require different tools.
+  - id: pollution_and_pesticide_reduction
+    action: Reduce pesticide load and pollution pathways while protecting remaining habitat
+    addresses:
+      - human_impact.pollution
+      - human_impact.pesticide_use
+      - biodiversity.pollinator_presence
+      - biodiversity.species_richness
+    metrics_impacted:
+      - biodiversity.pollinator_presence
+      - biodiversity.species_richness
+      - human_impact.pollution
+    expected_direction:
+      biodiversity.pollinator_presence: increase
+      biodiversity.species_richness: potential_increase
+      human_impact.pollution: decrease
+    time_horizon:
+      short: weeks to one season — reduced acute exposure
+      medium: 1–3 years — pollinator and aquatic recovery potential
+      long: 3+ years — community composition shifts
+    search_terms:
+      - pesticide pollinators
+      - agricultural pollution biodiversity
+      - IPM biodiversity
+    applicable_when:
+      pollution: [present, high]
+    tradeoffs:
+      - Pest pressure may rise unless replaced with integrated pest management.
+  - id: forest_connectivity
+    action: Restore habitat connectivity and reduce further deforestation or conversion
+    addresses:
+      - human_impact.deforestation
+      - land.fragmentation
+      - habitat_availability
+      - biodiversity.species_richness
+    metrics_impacted:
+      - land.fragmentation
+      - biodiversity.habitat_diversity
+      - biodiversity.species_richness
+    expected_direction:
+      land.fragmentation: decrease
+      biodiversity.habitat_diversity: increase
+      biodiversity.species_richness: potential_increase
+    time_horizon:
+      short: immediate — halt further loss
+      medium: 3–10 years — corridor function
+      long: 10+ years — species occupancy
+    search_terms:
+      - habitat fragmentation biodiversity
+      - deforestation species richness
+      - ecological restoration connectivity
+    applicable_when:
+      deforestation: [present, high]
+      fragmentation: [high]
+    tradeoffs:
+      - Restoration can conflict with short-term land-use income.

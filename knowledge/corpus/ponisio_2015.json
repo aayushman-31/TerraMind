@@ -1,0 +1,22 @@
+{
+  "document_id": "ponisio_2015_organic_pollinators",
+  "title": "Diversification practices reduce organic to conventional yield gap",
+  "authors": ["Lauren C. Ponisio", "and co-authors"],
+  "year": 2015,
+  "source_type": "research_paper",
+  "publisher": "Proceedings of the Royal Society B",
+  "url": "https://royalsocietypublishing.org/doi/10.1098/rspb.2014.1396",
+  "domain": ["biodiversity", "land"],
+  "metrics": ["pollinators", "species_richness", "cropping_system"],
+  "region": ["global"],
+  "methodology": "Meta-analysis related to diversification and organic versus conventional systems.",
+  "limitations": "Yield-gap focus; pollinator benefits are mechanistic inferences supported by related diversification literature, not a farm-specific census.",
+  "chunks": [
+    {
+      "chunk_id": "ponisio_2015_c1",
+      "text": "Diversification practices such as multi-cropping and habitat heterogeneity are associated with ecological benefits in farming systems, including resources for pollinators and other beneficial invertebrates. Simplified pesticide-intensive monocultures reduce floral and nesting resources. The evidence supports habitat and cropping diversification as a biodiversity intervention, not a precise local abundance forecast.",
+      "metrics": ["pollinators", "habitat_diversity"],
+      "domain": ["biodiversity", "land"]
+    }
+  ]
+}

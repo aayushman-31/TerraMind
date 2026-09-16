@@ -1,0 +1,28 @@
+{
+  "document_id": "beillouin_2021_crop_diversification",
+  "title": "Positive but variable effects of crop diversification on biodiversity and ecosystem services",
+  "authors": ["Damien Beillouin", "Tamara Ben-Ari", "Eric Malezieux", "Verena Seufert", "David Makowski"],
+  "year": 2021,
+  "source_type": "research_paper",
+  "publisher": "Global Change Biology",
+  "url": "https://onlinelibrary.wiley.com/doi/10.1111/gcb.15747",
+  "domain": ["land", "biodiversity", "soil"],
+  "metrics": ["species_richness", "organic_carbon", "cropping_system"],
+  "region": ["global", "semi-arid"],
+  "methodology": "Second-order meta-analysis of crop diversification effects.",
+  "limitations": "High between-study variability; dryland water competition can reduce benefits if species are poorly chosen.",
+  "chunks": [
+    {
+      "chunk_id": "beillouin_2021_c1",
+      "text": "Crop diversification, including intercropping and agroforestry, shows positive average effects on biodiversity and several soil-related services, but the magnitude is highly variable. In water-limited systems, benefits depend on selecting drought-compatible species and avoiding excessive competition. The paper is evidence both for diversification and against transferring a single percentage gain to a new site.",
+      "metrics": ["species_richness", "cropping_system"],
+      "domain": ["land", "biodiversity"]
+    },
+    {
+      "chunk_id": "beillouin_2021_c2",
+      "text": "Agroforestry and species mixtures often rank among the stronger diversification options for biodiversity, while cover crops show more mixed results depending on climate. This variability is scientifically important: conflicting local outcomes should be reported rather than averaged away when advising a specific farm.",
+      "metrics": ["habitat_diversity", "organic_carbon"],
+      "domain": ["land", "soil"]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "document_id": "fao_soil_biodiversity_2020",
+  "title": "State of knowledge of soil biodiversity",
+  "authors": ["FAO", "ITPS", "GSBI", "CBD", "EC"],
+  "year": 2020,
+  "source_type": "institutional_report",
+  "publisher": "FAO",
+  "url": "https://www.fao.org/documents/card/en/c/cb1928en",
+  "domain": ["soil", "biodiversity"],
+  "metrics": ["soil_biodiversity", "organic_carbon", "species_richness"],
+  "region": ["global"],
+  "methodology": "Global assessment compiling evidence on soil organism groups, threats, and management.",
+  "limitations": "Data coverage is uneven across regions and taxa; many soil groups remain under-sampled.",
+  "chunks": [
+    {
+      "chunk_id": "fao_soilbio_2020_c1",
+      "text": "Soil biodiversity underpins nutrient cycling, soil structure, and plant health. Intensive disturbance, low organic inputs, and simplified cropping reduce habitat and food resources for soil organisms. Restoring organic matter and reducing unnecessary tillage are repeatedly associated with more biologically active soils. These soil-community changes are a mechanism linking soil management to above-ground habitat quality.",
+      "metrics": ["soil_biodiversity", "organic_carbon"],
+      "domain": ["soil", "biodiversity"]
+    },
+    {
+      "chunk_id": "fao_soilbio_2020_c2",
+      "text": "Pesticide use, pollution, and land-use intensification can suppress soil fauna and microbial functions. The report treats soil biodiversity as both an outcome to protect and a driver of ecosystem services. Management recommendations therefore combine chemical-load reduction with habitat complexity in agricultural landscapes.",
+      "metrics": ["pesticides", "pollution", "soil_biodiversity"],
+      "domain": ["soil", "human_impact"]
+    }
+  ]
+}

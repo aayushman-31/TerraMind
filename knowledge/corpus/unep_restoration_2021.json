@@ -1,0 +1,22 @@
+{
+  "document_id": "unep_restoration_2021",
+  "title": "Becoming #GenerationRestoration: Ecosystem restoration for people, nature and climate",
+  "authors": ["United Nations Environment Programme"],
+  "year": 2021,
+  "source_type": "institutional_report",
+  "publisher": "UNEP",
+  "url": "https://www.unep.org/resources/ecosystem-restoration-people-nature-climate",
+  "domain": ["biodiversity", "human_impact", "land"],
+  "metrics": ["fragmentation", "deforestation", "habitat_diversity"],
+  "region": ["global"],
+  "methodology": "Policy synthesis on ecosystem restoration priorities and approaches.",
+  "limitations": "High-level guidance; local species choice and tenure conditions are not specified.",
+  "chunks": [
+    {
+      "chunk_id": "unep_2021_c1",
+      "text": "Restoring connectivity and reversing habitat conversion are central to biodiversity recovery after deforestation and fragmentation. Restoration is not only tree planting; it includes rehabilitating soil, hydrology, and landscape mosaics. Stopping further conversion is a first step because species cannot recolonize habitat that continues to shrink.",
+      "metrics": ["deforestation", "fragmentation", "habitat_diversity"],
+      "domain": ["human_impact", "biodiversity"]
+    }
+  ]
+}

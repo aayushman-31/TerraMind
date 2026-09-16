@@ -1,0 +1,28 @@
+{
+  "document_id": "tamburini_2020_diversification",
+  "title": "Agricultural diversification promotes multiple ecosystem services without compromising yield",
+  "authors": ["Giovanni Tamburini", "Riccardo Bommarco", "Thomas Cherico Wanger", "Claire Kremen", "Marcel G. A. van der Heijden", "Matt Liebman", "Sara Hallin"],
+  "year": 2020,
+  "source_type": "research_paper",
+  "publisher": "Science Advances",
+  "url": "https://www.science.org/doi/10.1126/sciadv.aba1715",
+  "domain": ["land", "biodiversity", "soil"],
+  "metrics": ["species_richness", "habitat_diversity", "organic_carbon"],
+  "region": ["global"],
+  "methodology": "Meta-analysis of agricultural diversification practices and associated ecosystem services.",
+  "limitations": "Effects vary by practice, crop, and region; not all sites show the same magnitude. Yield outcomes are average tendencies, not guarantees.",
+  "chunks": [
+    {
+      "chunk_id": "tamburini_2020_c1",
+      "text": "A meta-analysis of diversification practices, including intercropping, cover crops, crop rotation, and agroforestry, found generally positive effects on biodiversity and several ecosystem services. Biodiversity responses were associated with greater vegetational complexity rather than with irrigation or a single nutrient input. The authors caution that effect sizes are heterogeneous, so a single percentage improvement should not be applied to an unstudied farm.",
+      "metrics": ["species_richness", "habitat_diversity"],
+      "domain": ["biodiversity", "land"]
+    },
+    {
+      "chunk_id": "tamburini_2020_c2",
+      "text": "Soil-related services, including organic matter related processes, tended to benefit when diversification increased residue inputs and reduced continuous bare-soil intervals. Intercropping and cover crops were among the practices linking cropping-system change to soil and biodiversity outcomes simultaneously.",
+      "metrics": ["organic_carbon", "cropping_system"],
+      "domain": ["soil", "land"]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "id": "case1_low_soc_rainfall_monoculture",
+      "input": {
+        "soil": {"organic_carbon_pct": 0.3, "ph": 7.8},
+        "climate": {"rainfall": "low"},
+        "land": {"crop": "wheat", "cropping_system": "monoculture"},
+        "location": {"region": "semi-arid"}
+      },
+      "expect": "multi-variable reasoning"
+    },
+    {
+      "id": "case2_rainfall_fragmentation_deforestation",
+      "input": {
+        "climate": {"rainfall": "high"},
+        "land": {"fragmentation": "high"},
+        "human_impact": {"deforestation": "present"}
+      },
+      "expect": "land-use + climate + biodiversity reasoning"
+    },
+    {
+      "id": "case3_pollution_richness_disturbance",
+      "input": {
+        "human_impact": {"pollution": "present", "land_disturbance": "high"},
+        "biodiversity": {"species_richness": "low"}
+      },
+      "expect": "pollution + biodiversity + human-impact reasoning"
+    },
+    {
+      "id": "case4_incomplete",
+      "input": {"land": {"crop": "wheat"}, "climate": {"rainfall": "low"}},
+      "expect": "clarifying questions"
+    },
+    {
+      "id": "case5_no_evidence_topic",
+      "query": "xenon-lattice cryovolcano microbes",
+      "expect": "abstention / uncertainty"
+    },
+    {
+      "id": "case6_conflicting_cover_crops",
+      "query": "cover crops conflicting dryland water results",
+      "input": {
+        "soil": {"organic_carbon_pct": 0.3},
+        "climate": {"rainfall": "low"},
+        "land": {"crop": "wheat", "cropping_system": "monoculture"}
+      },
+      "expect": "uncertainty explanation"
+    }
+  ]
+}

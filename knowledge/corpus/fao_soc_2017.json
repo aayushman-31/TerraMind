@@ -1,0 +1,28 @@
+{
+  "document_id": "fao_soc_2017",
+  "title": "Soil Organic Carbon: the hidden potential",
+  "authors": ["Food and Agriculture Organization of the United Nations"],
+  "year": 2017,
+  "source_type": "institutional_report",
+  "publisher": "FAO",
+  "url": "https://www.fao.org/documents/card/en/c/ed16dbf0-68bd-4e93-81a5-6d4a7f6bdfc5",
+  "domain": ["soil", "biodiversity"],
+  "metrics": ["organic_carbon", "soil_biodiversity"],
+  "region": ["global", "semi-arid"],
+  "methodology": "Institutional synthesis of soil organic carbon functions, measurement, and management options.",
+  "limitations": "Global synthesis; local response magnitudes vary with climate, soil type, and management history.",
+  "chunks": [
+    {
+      "chunk_id": "fao_soc_2017_c1",
+      "text": "Soil organic carbon is a core indicator of soil health. Low stocks, including values well below 1 percent in many cultivated dryland soils, are associated with weaker soil structure, reduced water retention, and diminished biological activity. Practices that return plant residues and maintain living roots, including cover crops, diversified rotations, and agroforestry, are identified as pathways to rebuild organic matter. FAO emphasizes that carbon gains are typically gradual and context-specific rather than guaranteed annual percentages.",
+      "metrics": ["organic_carbon", "soil_moisture"],
+      "domain": ["soil"]
+    },
+    {
+      "chunk_id": "fao_soc_2017_c2",
+      "text": "In drylands, protecting soil from prolonged bare exposure is as important as adding biomass. Continuous monoculture with low residue return tends to deplete organic carbon. Combining residue retention with species diversification can improve habitat for soil organisms while contributing organic inputs. Quantitative carbon-rate claims should not be transferred across climates without local measurement.",
+      "metrics": ["organic_carbon", "cropping_system"],
+      "domain": ["soil", "land"]
+    }
+  ]
+}

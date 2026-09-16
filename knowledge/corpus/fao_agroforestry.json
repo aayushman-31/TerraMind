@@ -1,0 +1,22 @@
+{
+  "document_id": "fao_agroforestry",
+  "title": "Agroforestry for landscape restoration and livelihood resilience",
+  "authors": ["Food and Agriculture Organization of the United Nations"],
+  "year": 2017,
+  "source_type": "institutional_report",
+  "publisher": "FAO",
+  "url": "https://www.fao.org/agroforestry/en/",
+  "domain": ["land", "biodiversity", "soil"],
+  "metrics": ["habitat_diversity", "organic_carbon", "species_richness"],
+  "region": ["global", "semi-arid"],
+  "methodology": "FAO synthesis of agroforestry functions in production landscapes.",
+  "limitations": "Species and spacing must be locally adapted; water competition is a recognized risk in drylands.",
+  "chunks": [
+    {
+      "chunk_id": "fao_agroforestry_c1",
+      "text": "Agroforestry introduces structural diversity into farmland, creating habitat layers, windbreaks, and additional organic inputs through litter and roots. In dry regions, widely spaced, drought-adapted trees or shrubs on boundaries can improve habitat connectivity with lower crop competition than dense in-field planting. Biodiversity and soil-carbon benefits accrue over years rather than a single season.",
+      "metrics": ["habitat_diversity", "organic_carbon", "species_richness"],
+      "domain": ["land", "biodiversity", "soil"]
+    }
+  ]
+}
