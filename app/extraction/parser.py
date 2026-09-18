@@ -3,7 +3,7 @@ from __future__ import annotations
 import re
 from typing import Any
 
-from app.extraction.normalizer import CROPS, CROPPING_ALIASES, observation
+from app.extraction.normalizer import CROPPING_ALIASES, CROPS, observation
 from app.schemas.environment import EnvironmentalState
 
 SOC_RE = re.compile(

@@ -9,10 +9,10 @@ from app.evidence.verifier import verify_all
 from app.extraction.normalizer import extract_json_blob, merge_structured
 from app.extraction.parser import extract_from_text
 from app.memory.session import SessionMemory
+from app.reasoning.multi_metric import MultiMetricReasoner
 from app.recommendations.generator import build_recommendations
 from app.recommendations.ranking import rank_recommendations
 from app.recommendations.validator import validate_recommendations
-from app.reasoning.multi_metric import MultiMetricReasoner
 from app.retrieval.hybrid_search import get_hybrid_search
 from app.retrieval.query_builder import build_retrieval_query
 from app.schemas.environment import EnvironmentalState
@@ -184,7 +184,7 @@ class AgentOrchestrator:
                 f"CONFIDENCE\n{rec.confidence}\n\n"
                 f"ESTIMATED EFFECT\n{rec.estimated_effect}\n\n"
                 f"ASSUMPTIONS\n" + "\n".join(f"• {a}" for a in rec.assumptions) + "\n\n"
-                f"TRADEOFFS\n" + "\n".join(f"• {t}" for t in rec.tradeoffs) + "\n\n"
+                "TRADEOFFS\n" + "\n".join(f"• {t}" for t in rec.tradeoffs) + "\n\n"
                 f"HOW TO MEASURE\n{rec.measurement_plan}\n"
             )
         return "\n".join(blocks)

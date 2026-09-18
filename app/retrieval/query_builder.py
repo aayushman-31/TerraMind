@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from app.schemas.environment import EnvironmentalState
 from app.retrieval.embeddings import tokenize
+from app.schemas.environment import EnvironmentalState
 
 
 def build_retrieval_query(

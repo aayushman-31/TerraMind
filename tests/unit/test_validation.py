@@ -1,6 +1,6 @@
 from app.agent.policies import check_completeness
-from app.extraction.parser import extract_from_text
 from app.evidence.verifier import verify_recommendation
+from app.extraction.parser import extract_from_text
 from app.schemas.responses import EvidenceItem, Recommendation
 
 

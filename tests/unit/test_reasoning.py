@@ -1,5 +1,5 @@
-from app.reasoning.multi_metric import MultiMetricReasoner
 from app.extraction.normalizer import merge_structured
+from app.reasoning.multi_metric import MultiMetricReasoner
 from app.schemas.environment import EnvironmentalState
 
 

@@ -1,4 +1,4 @@
-from app.schemas.responses import EvidenceItem, Recommendation
+from app.schemas.responses import Recommendation
 
 
 def attach_citations(rec: Recommendation) -> list[str]:

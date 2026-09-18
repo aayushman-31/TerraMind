@@ -2,7 +2,6 @@ from __future__ import annotations
 
 from app.schemas.responses import Recommendation
 
-
 REQUIRED_FIELDS = [
     "action",
     "why_it_works",

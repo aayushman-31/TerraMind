@@ -5,7 +5,8 @@ from typing import Any
 
 from sqlalchemy.orm import Session
 
-from app.db.models import EnvironmentalObservation, EnvironmentalStateRecord, Message, Session as SessionModel
+from app.db.models import EnvironmentalObservation, EnvironmentalStateRecord, Message
+from app.db.models import Session as SessionModel
 from app.memory.environmental_state import merge_states
 from app.schemas.environment import EnvironmentalState
 
